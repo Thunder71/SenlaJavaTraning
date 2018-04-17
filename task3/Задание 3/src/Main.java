@@ -31,7 +31,7 @@ public class Main {
 
         bouquet1.setCost();
 
-        System.out.println("Букет состоит из " + bouquet1.getFlowers().size() + "цветов: " + "\n" +
+        System.out.println("Букет состоит из " + bouquet1.getFlowers().size() + " цветов: " + "\n" +
         bouquet1.getFlowers());
 
         System.out.println("Стоимость букета: " + bouquet1.getCost());
