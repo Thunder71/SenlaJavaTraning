@@ -10,7 +10,7 @@ public class Main {
         Color color4 = new Color(4,"white");
 
         Flower flow1 = new Flower(1,"magnolia",100);
-        flow1.getColor(color1);
+        flow1.setColor(color1);
         Flower flow2 = new Flower(2,"astra",50);
         flow2.setColor(color2);
         Flower flow3 = new Flower(3,"roze",155);
