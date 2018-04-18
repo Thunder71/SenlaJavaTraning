@@ -8,7 +8,7 @@ public class Count {
         for (int i = 0; i < Modifer.NUMBER; i++){
             String str;
             str = mass[i].toString();
-            sum = sum + Character.getNumericValue(str.charAt(0));
+            sum = sum + Character.getNumericValue(str.charAt(Modifer.SUM_NUMBER));
 
         }
         return sum;
