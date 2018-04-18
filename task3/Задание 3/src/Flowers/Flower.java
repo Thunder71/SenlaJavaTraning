@@ -1,3 +1,5 @@
+package Flowers;
+
 public class Flower {
     private int id;
     private String name;
@@ -55,7 +57,7 @@ public class Flower {
     public String toString() {
         return ("Name of flower: " + name + "\n" +
         "Cost of a flower: " + cost + "\n" +
-                "Color: " + color + "\n" +
+                "Flowers.Color: " + color + "\n" +
         "From shop window: " + "\n" + showcase);
     }
 }
