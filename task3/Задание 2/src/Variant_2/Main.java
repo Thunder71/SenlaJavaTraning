@@ -6,11 +6,11 @@ public class Main {
         Integer sum;
         Integer[] mass = new Integer[Modifer.NUMBER];
         MassNum massNum = new MassNum();
-        massNum.setNum(Modifer.NUMBER);
-        massNum.addMassNum(mass);
+        massNum.setMassNum(mass);
+        massNum.addMassNum();
 
-        for (int i = 0; i < Modifer.NUMBER; i++){
-            System.out.println(mass[i].toString());
+        for (int i = 0; i < massNum.getMassNum().length; i++){
+            System.out.println(massNum.getMassNum()[i].toString());
         }
 
         sum = Count.countNum(mass);
