@@ -1,6 +1,3 @@
-import java.util.HashSet;
-import java.util.Set;
-
 public class Flower {
     private int id;
     private String name;
@@ -56,9 +53,9 @@ public class Flower {
 
     @Override
     public String toString() {
-        return ("Наименование цветка: " + name + "\n" +
-        "Стоимость цветка: " + cost + "\n" +
-                "Цвет: " + color + "\n" +
-        "Из ветрины: " + "\n" + showcase);
+        return ("Name of flower: " + name + "\n" +
+        "Cost of a flower: " + cost + "\n" +
+                "Color: " + color + "\n" +
+        "From shop window: " + "\n" + showcase);
     }
 }

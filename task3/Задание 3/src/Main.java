@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         Showcase showcase1 = new Showcase(1,"First_showcase");
-        Showcase showcase2 = new Showcase(1,"First_showcase");
+        Showcase showcase2 = new Showcase(1,"Second_showcase");
 
         Color color1 = new Color(1,"red");
         Color color2 = new Color(2,"blue");
@@ -29,12 +29,13 @@ public class Main {
         bouquet1.addFlower(flow3);
         bouquet1.addFlower(flow4);
 
+        //Set the cost of the bouquet
         bouquet1.setCost();
 
-        System.out.println("Букет состоит из " + bouquet1.getFlowers().size() + " цветов: " + "\n" +
+        System.out.println("The bouquet consists of " + bouquet1.getFlowers().size() + " flower(s): " + "\n" +
         bouquet1.getFlowers());
 
-        System.out.println("Стоимость букета: " + bouquet1.getCost());
+        System.out.println("Cost of a bouquet: " + bouquet1.getCost());
 
     }
 }

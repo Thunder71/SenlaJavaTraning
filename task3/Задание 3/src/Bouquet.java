@@ -21,12 +21,13 @@ public class Bouquet {
         return cost;
     }
 
-    public int setCost() {
+
+    //Set the cost of the bouquet
+    public void setCost() {
         cost = 0;
         for (int i = 0; i < flowers.size(); i++) {
             cost = cost + flowers.get(i).getCost();
         }
-        return cost;
     }
 
     public ArrayList getFlowers() {

@@ -42,6 +42,6 @@ public class Showcase {
 
     @Override
     public String toString() {
-        return "Наименование ветрины: " + name + "\n";
+        return "Shop window name: " + name + "\n";
     }
 }
